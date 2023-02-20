@@ -43,4 +43,4 @@ async def play(ctx, *, query):
     vc.play(discord.FFmpegPCMAudio(url), after=lambda e: print('done', e))
     await ctx.send(f"Now playing: {title}")
 
-client.run('MTA3MzM3MzE5MDI3NDk1MzI4Nw.GsJBHY.Q_nrAwns62arVoWRak_aPWF_bjewijWRx5jnNQ')
+client.run('Bot_Token_Discord')
